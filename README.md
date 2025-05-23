@@ -1,4 +1,4 @@
-# Citation-Aware Research Assistant
+# Citation-Aware Research Assistant Q&A
 
 A Python tool for asking questions about scientific papers and getting citation-backed answers. Built for Google Colab with Groq API.
 
