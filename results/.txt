@@ -6,9 +6,14 @@ on various benchmark datasets, including the Quality dataset, which requires a c
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Why This Tool Rocks: Key Highlights**
+WHY This Tool Rocks: Key Highlights
 
-1. **Smart Answers**: Get clear, concise responses to questions like “What’s GNN-Ret about?” with paper-backed context.
-2. **Trusted Citations**: Links claims to sources (e.g., [14], Section 3.2) for reliable answers.
-3. **Section-Savvy**: Uses paper sections (Abstract, Results) for focused, relevant replies.
-4. **Deep Retrieval**: Employs HyDE and multi-hop searches to dig out key info, even for complex queries.
+1. Smart Answers: Get clear, concise responses to questions like “What’s GNN-Ret about?” with paper-backed context.
+2. Trusted Citations: Links claims to sources (e.g., [14], Section 3.2) for reliable answers.
+3. Section-Savvy: Uses paper sections (Abstract, Results) for focused, relevant replies.
+4. Deep Retrieval: Employs HyDE and multi-hop searches to dig out key info, even for complex queries.
+
+
+
+
+.
