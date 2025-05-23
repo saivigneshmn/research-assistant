@@ -14,7 +14,7 @@ A Python tool for asking questions about scientific papers and getting citation-
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/username/research-assistant.git
+   git clone https://github.com/saivigneshmn/research-assistant.git
    ```
 
 2. **Open in Colab**
