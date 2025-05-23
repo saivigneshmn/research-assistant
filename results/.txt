@@ -1,3 +1,4 @@
+
 Query: What are the key findings on proposed GNN-Ret? 
 
 Answer: The key findings on the proposed GNN-Ret method show that it effectively enhances retrieval for QA by exploiting the relatedness between passages, 
@@ -12,8 +13,6 @@ WHY This Tool Rocks: Key Highlights
 2. Trusted Citations: Links claims to sources (e.g., [14], Section 3.2) for reliable answers.
 3. Section-Savvy: Uses paper sections (Abstract, Results) for focused, relevant replies.
 4. Deep Retrieval: Employs HyDE and multi-hop searches to dig out key info, even for complex queries.
-
-
 
 
 .
