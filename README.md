@@ -8,7 +8,7 @@ A Python tool for asking questions about scientific papers and getting citation-
 - **Section-aware splitting** - Maintains document structure context
 - **Semantic clustering** - Groups related content intelligently
 - **HyDE retrieval** - Enhanced query matching
-- **Interactive interface** - Simple Q&A in Colab
+- ~**Interactive interface** - Simple Q&A in Colab~
 
 ## Quick Start
 
