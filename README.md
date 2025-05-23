@@ -4,7 +4,7 @@ A Python tool for asking questions about scientific papers and getting citation-
 
 ## Features
 
-- **Citation-aware chunking** - Preserves citation relationships
+- **Citation-aware chunking** - Preserves citation relationships (novelty**)
 - **Section-aware splitting** - Maintains document structure context
 - **Semantic clustering** - Groups related content intelligently
 - **HyDE retrieval** - Enhanced query matching
