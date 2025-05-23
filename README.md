@@ -25,3 +25,19 @@ Multi-Hop Retrieval: Iteratively refines queries for complex questions.
 Interactive Interface: User-friendly Q&A interface in Colab using ipywidgets.
 
 Groq API Integration: Leverages llama-3.3-70b-versatile for fast, high-quality responses.
+
+
+⚙️ Installation
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/username/research-assistant.git
+cd research-assistant
+2. Install Dependencies
+bash
+Copy
+Edit
+pip install -r src/requirements.txt
+Required: PyPDF2, langchain, sentence-transformers, faiss-cpu, requests, ipywidgets, pdfplumber, scikit-learn
+
