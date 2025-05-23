@@ -33,8 +33,11 @@ A Python tool for asking questions about scientific papers and getting citation-
 
 5. **Run and ask questions**
    ```
-   Query: What are the key findings on GNN-Ret?
-   Answer: GNN-Ret enhances retrieval for QA by exploiting passage relatedness, outperforming SBERT on datasets like Quality (Section 3.2).
+       queries = [
+        "What are the key findings on proposed GNN-Ret?",
+        "How does GNN-Ret compare to baselines like BM25?"
+    ]
+    run_queries(assistant, queries)
    ```
 
 ## Requirements
@@ -50,7 +53,7 @@ research-assistant/
 ├── src/
 │   ├── research_assistant_colab.py
 │   └── requirements.txt
-├── data/sample_pdfs/
+├── data/
 ├── results/
 └── docs/
 ```
