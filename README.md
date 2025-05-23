@@ -1,43 +1,58 @@
 # Citation-Aware Research Assistant
 
-A Python-based tool for question-answering on scientific papers, featuring citation-aware chunking, section-aware splitting, semantic chunking, HyDE-enhanced retrieval, and multi-hop retrieval, designed for Google Colab with Groq API integration.
+A Python tool for asking questions about scientific papers and getting citation-backed answers. Built for Google Colab with Groq API.
 
-# Project Overview
+## Features
 
-The Citation-Aware Research Assistant enables researchers to ask questions about scientific papers (e.g., "What are the key findings on GNN-Ret?") and receive concise, citation-supported answers. Built for Google Colab, it processes PDFs using advanced techniques like citation-aware chunking, section-aware splitting, semantic clustering, and HyDE-enhanced multi-hop retrieval, powered by the Groq API (llama-3.3-70b-versatile). This project aligns with insights from the GNN-Ret paper, offering a practical alternative to graph-based retrieval for scientific Q&A.
+- **Citation-aware chunking** - Preserves citation relationships
+- **Section-aware splitting** - Maintains document structure context
+- **Semantic clustering** - Groups related content intelligently
+- **HyDE retrieval** - Enhanced query matching
+- **Interactive interface** - Simple Q&A in Colab
 
-Why? To streamline literature review by preserving citation context and delivering accurate, evidence-based answers.
+## Quick Start
 
-How? The pipeline ingests PDFs, splits them into meaningful chunks, computes embeddings, retrieves relevant sections, and generates answers using few-shot prompting.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/username/research-assistant.git
+   ```
 
-# Features
+2. **Open in Colab**
+   - Upload `src/research_assistant_colab.py` to Google Colab
+   - Install dependencies:
+   ```python
+   !pip install PyPDF2 langchain sentence-transformers faiss-cpu requests ipywidgets pdfplumber scikit-learn
+   ```
 
-Citation-Aware Chunking: Preserves claim-citation relationships using regex and position-aware splitting.
+3. **Get Groq API key**
+   - Sign up at [Groq Console](https://console.groq.com)
+   - Copy your API key
 
-Section-Aware Splitting: Tags chunks with sections (e.g., Abstract, Methods) for context-aware retrieval.
+4. **Add PDFs**
+   - Upload PDFs to Colab's `./pdfs/` directory
 
-Semantic Chunking: Clusters sentences by similarity using KMeans and sentence-transformers.
+5. **Run and ask questions**
+   ```
+   Query: What are the key findings on GNN-Ret?
+   Answer: GNN-Ret enhances retrieval for QA by exploiting passage relatedness, outperforming SBERT on datasets like Quality (Section 3.2).
+   ```
 
-HyDE-Enhanced Retrieval: Generates hypothetical answers to improve query relevance.
+## Requirements
 
-Multi-Hop Retrieval: Iteratively refines queries for complex questions.
+- Python 3.8+
+- Groq API key
+- Google Colab (recommended)
 
-Interactive Interface: User-friendly Q&A interface in Colab using ipywidgets.
+## Structure
 
-Groq API Integration: Leverages llama-3.3-70b-versatile for fast, high-quality responses.
+```
+research-assistant/
+├── src/
+│   ├── research_assistant_colab.py
+│   └── requirements.txt
+├── data/sample_pdfs/
+├── results/
+└── docs/
+```
 
-
-⚙️ Installation
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/username/research-assistant.git
-cd research-assistant
-2. Install Dependencies
-bash
-Copy
-Edit
-pip install -r src/requirements.txt
-Required: PyPDF2, langchain, sentence-transformers, faiss-cpu, requests, ipywidgets, pdfplumber, scikit-learn
 
